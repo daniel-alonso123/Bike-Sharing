@@ -2,11 +2,16 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 # ======================
 # LOAD DATA
 # ======================
-df = pd.read_csv("all_data.csv")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(BASE_DIR, "all_data.csv")
+
+df = pd.read_csv(file_path)
 
 # ======================
 # TITLE
