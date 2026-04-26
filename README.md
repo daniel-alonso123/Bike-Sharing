@@ -19,12 +19,4 @@ pip install -r requirements.txt
 ## Run APP
 streamlit run App/app.py
 
-📁 Struktur Folder
-bike-sharing/
-│
-├── App/
-│   ├── app.py
-│   └── all_data.csv
-│
-├── requirements.txt
-└── README.md
+
